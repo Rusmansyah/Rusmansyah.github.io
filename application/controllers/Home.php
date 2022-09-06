@@ -28,6 +28,8 @@ class Home extends CI_Controller
 
 	public function index()
 	{
+		echo "Hello world";
+		die;
 		// menjalankan fungsi dan memasukan data ke variabel $data 
 		$data = $this->csvToArray($this->feed, ',');
 
